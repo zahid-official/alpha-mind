@@ -18,7 +18,7 @@ const Navbar = () => {
     </>
   );
   return (
-    <div className="shadow-sm py-5 px-2">
+    <div className="shadow-sm py-4 px-2 fixed w-full bg-[#0b1120]/80 z-50 backdrop-blur-xs">
       <div className="navbar container mx-auto">
         <div className="navbar-start">
           <a className="btn btn-ghost text-4xl font-bold">Alpha Mind</a>
