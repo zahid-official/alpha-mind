@@ -2,7 +2,7 @@ import React from "react";
 
 const FAQ = () => {
   return (
-    <div className="flex gap-12 flex-col lg:flex-row justify-center items-center container mx-auto lg:pt-10 pb-40 px-5">
+    <div className="flex gap-12 flex-col lg:flex-row justify-center items-center container mx-auto py-36 px-5">
       {/* left */}
       <div className="flex-1">
         <div >

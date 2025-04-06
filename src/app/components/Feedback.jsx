@@ -1,6 +1,6 @@
 const Feedback = () => {
   return (
-    <div className="pt-16 pb-32">
+    <div className="py-36 bg-[#fafafa] dark:bg-[#090a22]">
       {/* title */}
       <div className="text-center px-3 space-y-3 pb-10">
         <h3 className="text-4xl font-bold dark:text-white">

@@ -1,21 +1,23 @@
 const Footer = () => {
   return (
-    <div className="px-5 pt-10 pb-32">
-      <footer className="footer justify-around sm:footer-horizontal container mx-auto ">
-        <nav>
-          <h6 className="footer-title text-base">Contact Info</h6>
-          <a className="link link-hover">Call Us: +8801816986263</a>
-          <a className="link link-hover">Address: Rajshahi, Bangladesh</a>
-          <a className="link link-hover">Mail Us: eshan@hablu-programmer.com</a>
+    <div className="px-5 py-32">
+      <footer className="flex sm:justify-around justify-center flex-wrap gap-10 sm:footer-horizontal container mx-auto ">
+        <nav className="max-w-80 flex flex-col gap-1.5">
+          <h6 className="uppercase font-semibold text-base dark:text-white">Contact Info</h6>
+          <a className="link link-hover">Call Us: +880 1869618216</a>
+          <a className="link link-hover">Address: Uttara, Dhaka, Bangladesh</a>
+          <a className="link link-hover">Mail Us: alpha.mind@outlook.com</a>
         </nav>
-        <nav>
-          <h6 className="footer-title text-base">Important Links</h6>
+
+        <nav className="max-w-80 flex flex-col gap-1.5">
+          <h6 className="uppercase font-semibold text-base dark:text-white">Important Links</h6>
           <a className="link link-hover">About us</a>
           <a className="link link-hover">Privacy Policy</a>
           <a className="link link-hover">Terms & Conditions</a>
         </nav>
-        <nav>
-          <h6 className="footer-title text-base">Follow Us</h6>
+
+        <nav className="max-w-80 flex flex-col gap-1.5">
+          <h6 className="uppercase font-semibold text-base dark:text-white">Follow Us</h6>
           <a className="link link-hover">Github</a>
           <a className="link link-hover">Youtube</a>
           <a className="link link-hover">Linkedin</a>
