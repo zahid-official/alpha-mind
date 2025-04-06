@@ -42,10 +42,14 @@ const Navbar = () => {
   );
 
   return (
-    <div className="py-4 fixed w-full dark:bg-[#030919]/80 bg-base-200/80 z-50 backdrop-blur-xs border-b border-[#e4e8ec] dark:border-[#292e43] dark:text-white">
+    <div className="py-4 fixed w-full dark:bg-[#020617]/80 bg-base-200/80 z-50 backdrop-blur-xs border-b border-[#e4e8ec] dark:border-[#292e43] dark:text-white">
       <div className="navbar container mx-auto">
         <div className="navbar-start">
-          <a className="btn btn-ghost text-4xl font-bold">Alpha Mind</a>
+          <a className="btn btn-ghost text-4xl font-bold">
+            <span className="bg-gradient-to-r from-[#3492f1] to-[#44d285] bg-clip-text text-transparent">
+              Alpha Mind
+            </span>
+          </a>
         </div>
 
         <div className="navbar-end ">

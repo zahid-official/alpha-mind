@@ -16,7 +16,7 @@ const Specialty = () => {
       {/* content */}
       <div className="container mx-auto pt-12 flex gap-8 flex-wrap justify-center max-w-7xl">
         {/* 1 */}
-        <div className="border border-[#2b3045] rounded-2xl px-8 py-14 space-y-4 bg-[#101829] hover:scale-[1.07] duration-300 max-w-96">
+        <div className="border border-[#e4e8ec] dark:border-[#2b3045] rounded-2xl px-8 py-14 space-y-4 bg-[#fafafa] dark:bg-[#101829] hover:scale-[1.07] duration-300 max-w-96">
           <div className="h-16 w-16 mx-auto">
             <img
               src="https://www.hablu-programmer.com/img/jfsd/contents-modules.png"
@@ -34,7 +34,7 @@ const Specialty = () => {
         </div>
 
         {/* 2 */}
-        <div className="border border-[#2b3045] rounded-2xl px-8 py-14 space-y-4 bg-[#101829] hover:scale-[1.07] duration-300 max-w-96">
+        <div className="border border-[#e4e8ec] dark:border-[#2b3045] rounded-2xl px-8 py-14 space-y-4 bg-[#fafafa] dark:bg-[#101829] hover:scale-[1.07] duration-300 max-w-96">
           <div className="h-16 w-16 mx-auto">
             <img
               src="https://www.hablu-programmer.com/img/jfsd/recorded-live-session.png"
@@ -51,7 +51,7 @@ const Specialty = () => {
         </div>
 
         {/* 3 */}
-        <div className="border border-[#2b3045] rounded-2xl px-8 py-14 space-y-4 bg-[#101829] hover:scale-[1.07] duration-300 max-w-96">
+        <div className="border border-[#e4e8ec] dark:border-[#2b3045] rounded-2xl px-8 py-14 space-y-4 bg-[#fafafa] dark:bg-[#101829] hover:scale-[1.07] duration-300 max-w-96">
           <div className="h-16 w-16 mx-auto">
             <img
               src="https://www.hablu-programmer.com/img/jfsd/conceptual-crash-course.png"
@@ -68,7 +68,7 @@ const Specialty = () => {
         </div>
 
         {/* 4 */}
-        <div className="border border-[#2b3045] rounded-2xl px-8 py-14 space-y-4 bg-[#101829] hover:scale-[1.07] duration-300 max-w-96">
+        <div className="border border-[#e4e8ec] dark:border-[#2b3045] rounded-2xl px-8 py-14 space-y-4 bg-[#fafafa] dark:bg-[#101829] hover:scale-[1.07] duration-300 max-w-96">
           <div className="h-16 w-16 mx-auto">
             <img
               src="https://www.hablu-programmer.com/img/jfsd/projects.png"
@@ -85,7 +85,7 @@ const Specialty = () => {
         </div>
 
         {/* 5 */}
-        <div className="border border-[#2b3045] rounded-2xl px-8 py-14 space-y-4 bg-[#101829] hover:scale-[1.07] duration-300 max-w-96">
+        <div className="border border-[#e4e8ec] dark:border-[#2b3045] rounded-2xl px-8 py-14 space-y-4 bg-[#fafafa] dark:bg-[#101829] hover:scale-[1.07] duration-300 max-w-96">
           <div className="h-16 w-16 mx-auto">
             <img
               src="https://www.hablu-programmer.com/img/jfsd/assignments.png"
@@ -101,7 +101,7 @@ const Specialty = () => {
         </div>
 
         {/* 6 */}
-        <div className="border border-[#2b3045] rounded-2xl px-8 py-14 space-y-4 bg-[#101829] hover:scale-[1.07] duration-300 max-w-96">
+        <div className="border border-[#e4e8ec] dark:border-[#2b3045] rounded-2xl px-8 py-14 space-y-4 bg-[#fafafa] dark:bg-[#101829] hover:scale-[1.07] duration-300 max-w-96">
           <div className="h-16 w-16 mx-auto">
             <img
               src="https://www.hablu-programmer.com/img/jfsd/unlimited-support.png"
@@ -118,7 +118,7 @@ const Specialty = () => {
         </div>
 
         {/* 7 */}
-        <div className="border border-[#2b3045] rounded-2xl px-8 py-14 space-y-4 bg-[#101829] hover:scale-[1.07] duration-300 max-w-96">
+        <div className="border border-[#e4e8ec] dark:border-[#2b3045] rounded-2xl px-8 py-14 space-y-4 bg-[#fafafa] dark:bg-[#101829] hover:scale-[1.07] duration-300 max-w-96">
           <div className="h-16 w-16 mx-auto">
             <img
               src="https://www.hablu-programmer.com/img/jfsd/rewards-and-recognition.png"
@@ -134,7 +134,7 @@ const Specialty = () => {
         </div>
 
         {/* 8 */}
-        <div className="border border-[#2b3045] rounded-2xl px-8 py-14 space-y-4 bg-[#101829] hover:scale-[1.07] duration-300 max-w-96">
+        <div className="border border-[#e4e8ec] dark:border-[#2b3045] rounded-2xl px-8 py-14 space-y-4 bg-[#fafafa] dark:bg-[#101829] hover:scale-[1.07] duration-300 max-w-96">
           <div className="h-16 w-16 mx-auto">
             <img
               src="https://www.hablu-programmer.com/img/jfsd/freelancing-Job-placement-guide.png"

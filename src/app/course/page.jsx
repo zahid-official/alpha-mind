@@ -1,3 +1,4 @@
+import Curriculum from "./components/Curriculum";
 import Hero from "./components/Hero";
 import Schedule from "./components/Schedule";
 import Specialty from "./components/Specialty";
@@ -14,6 +15,9 @@ const course = () => {
 
             {/* Specialty */}
             <Specialty></Specialty>
+
+            {/* curriculum */}
+            <Curriculum></Curriculum>
         </div>
     );
 };
