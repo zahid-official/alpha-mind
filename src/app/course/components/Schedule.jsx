@@ -49,7 +49,7 @@ const Schedule = () => {
         <div className="flex gap-2.5 items-center justify-center lg:border-r border-[#e4e8ec] dark:border-[#292e43]">
           <div>
             <img
-              src="https://www.hablu-programmer.com/_next/image?url=%2Fcourses%2Fenrollment.png&w=32&q=75"
+              src="https://www.hablu-programmer.com/_next/image?url=%2Fcourses%2Fclass.png&w=32&q=75"
               alt=""
             />
           </div>
@@ -64,14 +64,14 @@ const Schedule = () => {
         <div className="flex gap-2.5 items-center justify-center">
           <div>
             <img
-              src="https://www.hablu-programmer.com/_next/image?url=%2Fcourses%2Fenrollment.png&w=32&q=75"
+              src="https://www.hablu-programmer.com/_next/image?url=%2Fcourses%2Fclass.png&w=32&q=75"
               alt=""
             />
           </div>
 
           <div className="">
             <h2 className="text-base">July 5th, 2025</h2>
-            <p className="text-[#22d3ee] text-lg">Class Starts</p>
+            <p className="text-[#22d3ee] text-lg">All-Class Starts</p>
           </div>
         </div>
       </div>
