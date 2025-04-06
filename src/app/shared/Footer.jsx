@@ -1,6 +1,6 @@
 const Footer = () => {
   return (
-    <div className="px-5 py-32">
+    <div className="px-5 py-32 border-t border-[#e4e8ec] dark:border-[#292e43]">
       <footer className="flex sm:justify-around justify-center flex-wrap gap-10 sm:footer-horizontal container mx-auto ">
         <nav className="max-w-80 flex flex-col gap-1.5">
           <h6 className="uppercase font-semibold text-base dark:text-white">Contact Info</h6>
