@@ -1,4 +1,5 @@
 import Hero from "./components/Hero";
+import Schedule from "./components/Schedule";
 
 
 const course = () => {
@@ -6,6 +7,9 @@ const course = () => {
         <div>
             {/* hero */}
             <Hero></Hero>
+
+            {/* Schedule */}
+            <Schedule></Schedule>
         </div>
     );
 };
