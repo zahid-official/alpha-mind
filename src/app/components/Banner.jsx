@@ -32,7 +32,7 @@ const Banner = () => {
               Preparation & Special Guidance For Freelancing In Just One Course.
             </p>
 
-            <button className="btn z-10 bg-[#006fee] text-white border-none shadow-2xl shadow-[#0066db] font-normal px-6 ">
+            <button className="btn text-base h-12 z-10 bg-[#006fee] text-white border-none shadow-2xl shadow-[#0066db] font-normal px-8 ">
               View Course
             </button>
           </div>
