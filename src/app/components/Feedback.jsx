@@ -1,9 +1,14 @@
 const Feedback = () => {
   return (
-    <div className="pb-32">
+    <div className="py-32">
       {/* title */}
       <div className="text-center px-3 space-y-3 pb-10">
-        <h3 className="text-4xl font-bold">Students Feedback</h3>
+        <h3 className="text-4xl font-bold text-white">
+          Students{" "}
+          <span className="bg-gradient-to-r from-[#3492f1] to-[#44d285] bg-clip-text text-transparent">
+            Feedback
+          </span>
+        </h3>
         <p>
           Our Students Are Our Strength, See What They Say About Us. Learners
           have always <br /> expressed their love for Alpha Mind.
@@ -13,7 +18,7 @@ const Feedback = () => {
       {/* users */}
       <div className="flex justify-center items-center flex-wrap gap-10 px-5">
         {/* 1 */}
-        <div className="border max-w-sm px-7 py-12 rounded-2xl">
+        <div className="border border-[#3e4458] max-w-sm px-7 py-12 rounded-2xl">
           <div className="flex gap-3.5 ">
             <div>
               <img
@@ -24,7 +29,7 @@ const Feedback = () => {
             </div>
 
             <div>
-              <h2 className="text-xl">Khairul Islam </h2>
+              <h2 className="text-xl text-white">Khairul Islam </h2>
               <h3>Student | Frontend Developer</h3>
 
               {/* stars */}
@@ -76,7 +81,7 @@ const Feedback = () => {
         </div>
 
         {/* 2 */}
-        <div className="border max-w-sm px-7 py-12 rounded-2xl">
+        <div className="border border-[#3e4458] max-w-sm px-7 py-12 rounded-2xl">
           <div className="flex gap-3.5 ">
             <div>
               <img
@@ -87,7 +92,7 @@ const Feedback = () => {
             </div>
 
             <div>
-              <h2 className="text-xl">Khairul Islam </h2>
+              <h2 className="text-xl text-white">Khairul Islam </h2>
               <h3>Student | Frontend Developer</h3>
 
               {/* stars */}
@@ -139,7 +144,7 @@ const Feedback = () => {
         </div>
 
         {/* 3 */}
-        <div className="border max-w-sm px-7 py-12 rounded-2xl">
+        <div className="border border-[#3e4458] max-w-sm px-7 py-12 rounded-2xl">
           <div className="flex gap-3.5 ">
             <div>
               <img
@@ -150,7 +155,7 @@ const Feedback = () => {
             </div>
 
             <div>
-              <h2 className="text-xl">Khairul Islam </h2>
+              <h2 className="text-xl text-white">Khairul Islam </h2>
               <h3>Student | Frontend Developer</h3>
 
               {/* stars */}
