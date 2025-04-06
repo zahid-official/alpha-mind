@@ -11,7 +11,7 @@ const FAQ = () => {
             alt="" className="lg:mx-0 mx-auto"
           />
         </div>
-        <h2 className="text-4xl font-bold py-5 text-white lg:text-left text-center">
+        <h2 className="text-4xl font-bold py-5 dark:text-white lg:text-left text-center">
           Commonly Asked{" "}
           <span className="bg-gradient-to-r from-[#3492f1] to-[#44d285] bg-clip-text text-transparent">
             Questions

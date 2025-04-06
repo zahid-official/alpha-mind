@@ -18,7 +18,7 @@ const Banner = () => {
             <h6 className="text-lg font-semibold bg-gradient-to-r from-[#3492f1] to-[#44d285] bg-clip-text text-transparent">
               Unlock Cultivate Confidence
             </h6>
-            <h1 className="sm:text-6xl text-4xl font-bold pt-2 text-white">
+            <h1 className="sm:text-6xl text-4xl font-bold pt-2 dark:text-white">
               Learn Limitless To Build Your{" "}
               <span className="bg-gradient-to-r from-[#3492f1] to-[#44d285] bg-clip-text text-transparent">
                 Self-Esteem

@@ -1,9 +1,9 @@
 const Feedback = () => {
   return (
-    <div className="py-32">
+    <div className="pt-16 pb-32">
       {/* title */}
       <div className="text-center px-3 space-y-3 pb-10">
-        <h3 className="text-4xl font-bold text-white">
+        <h3 className="text-4xl font-bold dark:text-white">
           Students{" "}
           <span className="bg-gradient-to-r from-[#3492f1] to-[#44d285] bg-clip-text text-transparent">
             Feedback
@@ -29,7 +29,7 @@ const Feedback = () => {
             </div>
 
             <div>
-              <h2 className="text-xl text-white">Khairul Islam </h2>
+              <h2 className="text-xl dark:text-white">Khairul Islam </h2>
               <h3>Student | Frontend Developer</h3>
 
               {/* stars */}
@@ -92,7 +92,7 @@ const Feedback = () => {
             </div>
 
             <div>
-              <h2 className="text-xl text-white">Khairul Islam </h2>
+              <h2 className="text-xl dark:text-white">Khairul Islam </h2>
               <h3>Student | Frontend Developer</h3>
 
               {/* stars */}
@@ -155,7 +155,7 @@ const Feedback = () => {
             </div>
 
             <div>
-              <h2 className="text-xl text-white">Khairul Islam </h2>
+              <h2 className="text-xl dark:text-white">Khairul Islam </h2>
               <h3>Student | Frontend Developer</h3>
 
               {/* stars */}
