@@ -2,16 +2,21 @@ import React from "react";
 
 const FAQ = () => {
   return (
-    <div className="flex gap-12 flex-col lg:flex-row justify-center items-center container mx-auto pt-8 pb-32 px-5">
+    <div className="flex gap-12 flex-col lg:flex-row justify-center items-center container mx-auto lg:pt-10 pb-40 px-5">
       {/* left */}
       <div className="flex-1">
-        <div>
+        <div >
           <img
             src="https://learnwithsumit.com/_next/static/media/faq.8116aa7d.svg"
-            alt=""
+            alt="" className="lg:mx-0 mx-auto"
           />
         </div>
-        <h2 className="text-4xl font-bold py-5">Commonly Asked Questions</h2>
+        <h2 className="text-4xl font-bold py-5 text-white lg:text-left text-center">
+          Commonly Asked{" "}
+          <span className="bg-gradient-to-r from-[#3492f1] to-[#44d285] bg-clip-text text-transparent">
+            Questions
+          </span>
+        </h2>
         <p>
           We’ve compiled answers to some of the most frequently asked questions
           for your convenience. Before reaching out to us, we kindly encourage
@@ -74,10 +79,13 @@ const FAQ = () => {
         <div className="collapse collapse-arrow border-b rounded-none border-[#1e293b]">
           <input type="radio" name="my-accordion-2" />
           <div className="collapse-title font-semibold">
-          How do I participate in the course exams?
+            How do I participate in the course exams?
           </div>
           <div className="collapse-content text-sm">
-          All course exams will be conducted online through our learning platform. Detailed instructions and schedules will be shared before each exam. You’ll need to follow the guidelines and submit your answers within the given timeframe.
+            All course exams will be conducted online through our learning
+            platform. Detailed instructions and schedules will be shared before
+            each exam. You’ll need to follow the guidelines and submit your
+            answers within the given timeframe.
           </div>
         </div>
 
@@ -85,10 +93,14 @@ const FAQ = () => {
         <div className="collapse collapse-arrow border-b rounded-none border-[#1e293b]">
           <input type="radio" name="my-accordion-2" />
           <div className="collapse-title font-semibold">
-          How can I participate in the course exams?
+            How can I participate in the course exams?
           </div>
           <div className="collapse-content text-sm">
-          Course exams will be conducted online, and you can take them through our designated platform. Detailed instructions, including the schedule and submission process, will be provided ahead of time. Make sure to follow the guidelines and submit your answers within the given deadline.
+            Course exams will be conducted online, and you can take them through
+            our designated platform. Detailed instructions, including the
+            schedule and submission process, will be provided ahead of time.
+            Make sure to follow the guidelines and submit your answers within
+            the given deadline.
           </div>
         </div>
 
@@ -96,10 +108,12 @@ const FAQ = () => {
         <div className="collapse collapse-arrow border-b rounded-none border-[#1e293b]">
           <input type="radio" name="my-accordion-2" />
           <div className="collapse-title font-semibold">
-          How long will the course run?
+            How long will the course run?
           </div>
           <div className="collapse-content text-sm">
-          The course will run for 6 months. You’ll receive a detailed schedule with all important dates after enrolling. This will help you plan your learning and stay on track throughout the course.
+            The course will run for 6 months. You’ll receive a detailed schedule
+            with all important dates after enrolling. This will help you plan
+            your learning and stay on track throughout the course.
           </div>
         </div>
 
@@ -107,10 +121,15 @@ const FAQ = () => {
         <div className="collapse collapse-arrow border-b rounded-none border-[#1e293b]">
           <input type="radio" name="my-accordion-2" />
           <div className="collapse-title font-semibold">
-          What do I need in order to take this course?
+            What do I need in order to take this course?
           </div>
           <div className="collapse-content text-sm">
-          To successfully complete the course, you'll need a stable internet connection, a computer or device capable of running the necessary software, and the required tools (such as a web browser and any other specified software). Additional requirements, like prior knowledge of certain topics, will be mentioned in the course outline. Please make sure to check these before starting.
+            To successfully complete the course, you'll need a stable internet
+            connection, a computer or device capable of running the necessary
+            software, and the required tools (such as a web browser and any
+            other specified software). Additional requirements, like prior
+            knowledge of certain topics, will be mentioned in the course
+            outline. Please make sure to check these before starting.
           </div>
         </div>
 
@@ -118,10 +137,15 @@ const FAQ = () => {
         <div className="collapse collapse-arrow border-b rounded-none border-[#1e293b]">
           <input type="radio" name="my-accordion-2" />
           <div className="collapse-title font-semibold">
-          What do I need in order to take this course?
+            What do I need in order to take this course?
           </div>
           <div className="collapse-content text-sm">
-          To take this course, you’ll need a computer or device with internet access, along with the necessary software (such as a modern web browser and a code editor, if applicable). You should also meet any prior knowledge or technical requirements outlined in the course description. Make sure to review these details before starting to ensure you’re fully prepared.
+            To take this course, you’ll need a computer or device with internet
+            access, along with the necessary software (such as a modern web
+            browser and a code editor, if applicable). You should also meet any
+            prior knowledge or technical requirements outlined in the course
+            description. Make sure to review these details before starting to
+            ensure you’re fully prepared.
           </div>
         </div>
 
@@ -129,10 +153,15 @@ const FAQ = () => {
         <div className="collapse collapse-arrow border-b rounded-none border-[#1e293b]">
           <input type="radio" name="my-accordion-2" />
           <div className="collapse-title font-semibold">
-          Who are the course instructors, and what will each instructor teach?
+            Who are the course instructors, and what will each instructor teach?
           </div>
           <div className="collapse-content text-sm">
-          The course will be taught by a team of experienced instructors, each specializing in different areas of the course content. Specific details about each instructor and the topics they will cover will be shared in the course syllabus. You’ll be able to review the instructor profiles and the sections they will teach once the course begins.
+            The course will be taught by a team of experienced instructors, each
+            specializing in different areas of the course content. Specific
+            details about each instructor and the topics they will cover will be
+            shared in the course syllabus. You’ll be able to review the
+            instructor profiles and the sections they will teach once the course
+            begins.
           </div>
         </div>
 
@@ -140,10 +169,12 @@ const FAQ = () => {
         <div className="collapse collapse-arrow border-b rounded-none border-[#1e293b]">
           <input type="radio" name="my-accordion-2" />
           <div className="collapse-title font-semibold">
-          What is the course fee?
+            What is the course fee?
           </div>
           <div className="collapse-content text-sm">
-          The course fee is 5600-tk. You can find more details about payment options, discounts, and available scholarships on our registration page.
+            The course fee is 5600-tk. You can find more details about payment
+            options, discounts, and available scholarships on our registration
+            page.
           </div>
         </div>
 
@@ -151,10 +182,13 @@ const FAQ = () => {
         <div className="collapse collapse-arrow border-b rounded-none border-[#1e293b]">
           <input type="radio" name="my-accordion-2" />
           <div className="collapse-title font-semibold">
-          Is the course fee refundable?
+            Is the course fee refundable?
           </div>
           <div className="collapse-content text-sm">
-          The course fee is non-refundable. If refundable, specific conditions and timelines for requesting a refund will apply. Please refer to our refund policy page for more detailed information on eligibility and the refund process.
+            The course fee is non-refundable. If refundable, specific conditions
+            and timelines for requesting a refund will apply. Please refer to
+            our refund policy page for more detailed information on eligibility
+            and the refund process.
           </div>
         </div>
       </div>
