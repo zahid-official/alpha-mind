@@ -4,7 +4,7 @@ const Banner = () => {
   return (
     <>
       <div className="pt-32 pb-10 bg-[url(https://learnwithsumit.com/_next/static/media/pattern-dark.20747baf.svg)] dark:bg-[url(https://www.hablu-programmer.com/home/hero-pattern.svg)]">
-        <div className="flex gap-10 flex-col lg:flex-row-reverse justify-center items-center container mx-auto px-5 pt-10 pb-16 min-h-[88vh] relative overflow-x-hidden">
+        <div className="flex gap-10 flex-col lg:flex-row-reverse justify-center items-center container mx-auto px-5 pt-10 pb-16 min-h-[88vh] relative overflow-hidden">
           {/* right */}
           <div className="flex-1 w-full">
             <img
