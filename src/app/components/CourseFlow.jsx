@@ -1,3 +1,7 @@
+"use client";
+
+import { DotLottieReact } from "@lottiefiles/dotlottie-react";
+
 const CourseFlow = () => {
   return (
     <div className="py-36">
@@ -71,9 +75,11 @@ const CourseFlow = () => {
 
           {/* right */}
           <div className="flex-1 flex justify-center">
-            <img
-              src="https://www.hablu-programmer.com/img/programming.png"
-              alt=""
+            <DotLottieReact
+              src="https://lws-website-assets.s3.ap-southeast-1.amazonaws.com/lottie/value-solution.lottie"
+              className="w-full scale-[1.5]"
+              loop
+              autoplay
             />
           </div>
         </div>
@@ -139,9 +145,11 @@ const CourseFlow = () => {
 
           {/* right */}
           <div className="flex-1 flex justify-center">
-            <img
-              src="https://www.hablu-programmer.com/img/about-img.svg"
-              alt=""
+            <DotLottieReact
+              src="https://lws-website-assets.s3.ap-southeast-1.amazonaws.com/lottie/value-assignment.lottie"
+              className="w-full scale-[1.5]"
+              loop
+              autoplay
             />
           </div>
         </div>
@@ -265,9 +273,11 @@ const CourseFlow = () => {
 
           {/* right */}
           <div className="flex-1 flex justify-center">
-            <img
-              src="https://www.hablu-programmer.com/img/coding-boy.svg"
-              alt=""
+          <DotLottieReact
+              src="https://lws-website-assets.s3.ap-southeast-1.amazonaws.com/lottie/value-support.lottie"
+              className="w-full scale-[1.20]"
+              loop
+              autoplay
             />
           </div>
         </div>
@@ -326,13 +336,15 @@ const CourseFlow = () => {
 
           {/* right */}
           <div className="flex-1 flex justify-center">
-            <img
-              src="https://www.hablu-programmer.com/img/img-disendow-web-media.svg"
-              alt=""
+            <DotLottieReact
+              src="https://lws-website-assets.s3.ap-southeast-1.amazonaws.com/lottie/value-live.lottie"
+              className="w-full scale-[1.5]"
+              loop
+              autoplay
             />
           </div>
         </div>
- 
+
         {/* 6 */}
         <div className="flex lg:gap-10 gap-5 items-center lg:flex-row-reverse flex-col-reverse">
           {/* left */}
@@ -376,9 +388,11 @@ const CourseFlow = () => {
 
           {/* right */}
           <div className="flex-1 flex justify-center">
-            <img
-              src="https://www.hablu-programmer.com/img/contact.png"
-              alt=""
+            <DotLottieReact
+              src="https://lws-website-assets.s3.ap-southeast-1.amazonaws.com/lottie/value-exam.lottie"
+              className="w-full scale-[1.2]"
+              loop
+              autoplay
             />
           </div>
         </div>

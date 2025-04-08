@@ -8,8 +8,12 @@ const Banner = () => {
         <div className="flex gap-10 flex-col lg:flex-row-reverse justify-center items-center container mx-auto px-5 pt-10 pb-16 min-h-[88vh] relative overflow-hidden">
           {/* right */}
           <div className="flex-1 w-full">
-
-            <DotLottieReact src="https://lws-website-assets.s3.ap-southeast-1.amazonaws.com/lottie/modules.lottie" className="w-full" loop autoplay />
+            <DotLottieReact
+              src="https://lws-website-assets.s3.ap-southeast-1.amazonaws.com/lottie/modules.lottie"
+              className="w-full scale-110"
+              loop
+              autoplay
+            />
           </div>
 
           {/* left */}
