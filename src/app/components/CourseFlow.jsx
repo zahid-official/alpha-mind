@@ -332,7 +332,7 @@ const CourseFlow = () => {
             />
           </div>
         </div>
-
+ 
         {/* 6 */}
         <div className="flex lg:gap-10 gap-5 items-center lg:flex-row-reverse flex-col-reverse">
           {/* left */}
