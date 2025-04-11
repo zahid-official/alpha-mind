@@ -39,7 +39,7 @@ const CourseFlow = () => {
             </div>
 
             <h2 className="text-3xl dark:text-white lg:text-left text-center font-semibold pt-8 pb-5">
-              Project Based Learning Approach
+              Project Based Learning Approach 
             </h2>
             <p>
               Every week, one to two modules will be released, each containing
