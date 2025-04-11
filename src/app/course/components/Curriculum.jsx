@@ -12,32 +12,35 @@ const Curriculum = () => {
           </h1>
 
           <p className="pb-10">
-            In this comprehensive course, you’ll develop all the skills needed
-            to become a Junior Full Stack Web Developer. You’ll start with
-            essential web foundations, learning HTML, CSS, Chrome DevTools, VS
-            Code, Git & GitHub, and popular deployment tools like Vercel and
-            Render. Tailwind CSS will help you create responsive designs
-            quickly, while JavaScript and TypeScript will provide a strong
-            understanding of programming fundamentals.
+            In this comprehensive course, you’ll build all the essential skills
+            to become a Junior Full Stack Web Developer. You’ll begin with core
+            web foundations, learning HTML, CSS, Chrome DevTools, VS Code, Git &
+            GitHub, along with top deployment tools like Vercel and Render.
+            Tailwind CSS will enable you to create responsive UIs with ease,
+            while JavaScript and TypeScript will strengthen your grasp of
+            programming concepts and modern development practices.
             <br />
             <br />
             The course progresses into advanced frontend and backend topics.
-            You’ll explore React, Redux, ES6, DOM manipulation, JSON, API
-            integration, complete authentication workflows, debugging practices,
-            and popular UI libraries such as DaisyUI, Next UI, and shadcn UI.
+            You’ll dive into React, Redux, ES6, DOM manipulation, and JSON,
+            while learning API integration, authentication workflows, effective
+            debugging techniques, and working with popular UI libraries like
+            DaisyUI, Next UI, and shadcn UI to build polished, modern
+            interfaces.
             <br />
             <br />
             You’ll also gain backend expertise with Node.js and Express.js,
             covering RESTful APIs, middleware, routing, and MongoDB with
-            Mongoose for database management. Additionally, you’ll implement
-            JWT-based authentication for secure login systems, set up role-based
-            access control, integrate Firebase, handle CORS, manage state with
-            Axios or Fetch, and use global state tools.
+            Mongoose for efficient database handling. You’ll implement secure
+            JWT-based authentication, role-based access control, Firebase
+            integration, and CORS handling, while managing state using Axios or
+            Fetch along with global state management tools.
             <br />
             <br />
-            Finally, this course concludes with job interview preparation and
-            freelancing guidance, providing the confidence and skills you need
-            to start your career successfully.
+            Finally, the course wraps up with job interview preparation and
+            freelancing guidance, equipping you with the confidence and
+            practical insights needed to launch your career successfully as a
+            web developer.
           </p>
 
           <button className="btn text-base h-12 z-10 bg-[#006fee] text-white border-none shadow-2xl shadow-[#0066db] font-normal px-10 rounded-full">
