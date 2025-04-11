@@ -1,3 +1,6 @@
+"use client"
+
+import { DotLottieReact } from "@lottiefiles/dotlottie-react";
 import React from "react";
 import { FaPhone } from "react-icons/fa";
 
@@ -32,8 +35,13 @@ const ContactTeam = () => {
         </div>
 
         {/* right */}
-        <div className="flex-1">
-          <img src="https://www.hablu-programmer.com/img/contact.png" alt="" />
+        <div className="flex-1 overflow-hidden">
+          <DotLottieReact
+            src="/lotties/courseFlow2.lottie"
+            className="w-full scale-[1.1]"
+            loop
+            autoplay
+          />
         </div>
       </div>
     </div>

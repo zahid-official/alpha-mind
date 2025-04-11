@@ -23,7 +23,7 @@ const Learning = () => {
         {/* left */}
         <div className="flex-1 -scale-x-100">
           <DotLottieReact
-            src="/lotties/courseFlow0.1.lottie"
+            src="/lotties/courseFlow3.lottie"
             className="w-full scale-[1.05]"
             loop
             autoplay
