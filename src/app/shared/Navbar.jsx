@@ -1,9 +1,12 @@
 "use client";
 
+import { signOut, useSession } from "next-auth/react";
 import Link from "next/link";
 import { useEffect } from "react";
 
 const Navbar = () => {
+  const { data: session, status } = useSession();
+  console.log(session);
   // handleDarkMode
   const handleDarkMode = () => {
     const darkMode = document.documentElement.classList.toggle("dark");
@@ -22,22 +25,37 @@ const Navbar = () => {
       <li>
         <Link href={"/course"}>Course</Link>
       </li>
-      <li>
-        <Link
-          className="lg:btn lg:text-base lg:rounded-full lg:px-5"
-          href={"/login"}
-        >
-          Login
-        </Link>
-      </li>
-      <li>
-        <Link
-          className="lg:btn lg:text-base lg:rounded-full lg:px-5"
-          href={"/register"}
-        >
-          Register
-        </Link>
-      </li>
+      {status == "authenticated" ? (
+        <>
+        <li onClick={() => signOut()}>
+            <Link
+              className="lg:btn lg:text-base lg:rounded-full lg:px-5"
+              href={"/login"}
+            >
+              Log out
+            </Link>
+          </li>
+        </>
+      ) : (
+        <>
+          <li>
+            <Link
+              className="lg:btn lg:text-base lg:rounded-full lg:px-5"
+              href={"/login"}
+            >
+              Login
+            </Link>
+          </li>
+          <li>
+            <Link
+              className="lg:btn lg:text-base lg:rounded-full lg:px-5"
+              href={"/register"}
+            >
+              Register
+            </Link>
+          </li>
+        </>
+      )}
     </>
   );
 

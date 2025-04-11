@@ -1,7 +1,8 @@
+import NextAuthProvider from "@/Providers/NextAuthProvider";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-import Navbar from "./shared/Navbar";
 import Footer from "./shared/Footer";
+import Navbar from "./shared/Navbar";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -22,18 +23,20 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en" data-theme="light">
       <body
-      className={`${geistSans.variable} ${geistMono.variable} antialiased dark:bg-[#020617] dark:text-[#cbd5e1]`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased dark:bg-[#020617] dark:text-[#cbd5e1]`}
       >
-        {/* header */}
-        <nav>
-          <Navbar></Navbar>
-        </nav>
+        <NextAuthProvider>
+          {/* header */}
+          <nav>
+            <Navbar></Navbar>
+          </nav>
 
-        {/* main */}
-        <main className="min-h-[88vh]">{children}</main>
+          {/* main */}
+          <main className="min-h-[88vh]">{children}</main>
 
-        {/* footer */}
-        <Footer></Footer>
+          {/* footer */}
+          <Footer></Footer>
+        </NextAuthProvider>
       </body>
     </html>
   );
