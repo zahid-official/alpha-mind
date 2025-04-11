@@ -1,3 +1,6 @@
+"use client";
+
+import { DotLottieReact } from "@lottiefiles/dotlottie-react";
 import { FaArrowDownLong, FaCheck } from "react-icons/fa6";
 
 const Learning = () => {
@@ -18,10 +21,12 @@ const Learning = () => {
       {/* content */}
       <div className="flex flex-col lg:flex-row gap-20 justify-center items-center container mx-auto px-5 pt-20">
         {/* left */}
-        <div className="flex-1">
-          <img
-            src="https://www.hablu-programmer.com/img/img-disendow-web-media.svg"
-            alt=""
+        <div className="flex-1 -scale-x-100">
+          <DotLottieReact
+            src="/lotties/courseFlow3.lottie"
+            className="w-full scale-[1.05]"
+            loop
+            autoplay
           />
         </div>
 

@@ -1,3 +1,6 @@
+'use client'
+
+import { DotLottieReact } from "@lottiefiles/dotlottie-react";
 import { FaDiscord, FaPhone } from "react-icons/fa";
 
 const Support = () => {
@@ -36,9 +39,11 @@ const Support = () => {
 
         {/* right */}
         <div className="flex-1">
-          <img
-            src="https://www.hablu-programmer.com/img/coding-boy.svg"
-            alt=""
+          <DotLottieReact
+            src="/lotties/courseFlow0.lottie"
+            className="w-full scale-[1.1]"
+            loop
+            autoplay
           />
         </div>
       </div>

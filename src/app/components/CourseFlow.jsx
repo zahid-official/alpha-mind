@@ -20,7 +20,7 @@ const CourseFlow = () => {
       {/* content */}
       <div className="container mx-auto px-5 lg:pt-16 pt-8 space-y-16">
         {/* 1 */}
-        <div className="flex lg:gap-10 gap-5 items-center lg:flex-row flex-col-reverse">
+        <div className="flex gap-10 items-center lg:flex-row flex-col-reverse">
           {/* left */}
           <div className="flex-1 relative">
             <div className="h-20 w-24 relative lg:mx-0 mx-auto">
@@ -39,7 +39,7 @@ const CourseFlow = () => {
             </div>
 
             <h2 className="text-3xl dark:text-white lg:text-left text-center font-semibold pt-8 pb-5">
-              Project Based Learning Approach 
+              Project Based Learning Approach
             </h2>
             <p>
               Every week, one to two modules will be released, each containing
@@ -74,7 +74,7 @@ const CourseFlow = () => {
           </div>
 
           {/* right */}
-          <div className="flex-1 flex justify-center">
+          <div className="flex-1 flex justify-center overflow-hidden">
             <DotLottieReact
               src="https://lws-website-assets.s3.ap-southeast-1.amazonaws.com/lottie/value-solution.lottie"
               className="w-full scale-[1.5]"
@@ -85,7 +85,7 @@ const CourseFlow = () => {
         </div>
 
         {/* 2 */}
-        <div className="flex lg:gap-10 gap-5 items-center lg:flex-row-reverse flex-col-reverse">
+        <div className="flex gap-10 items-center lg:flex-row-reverse flex-col-reverse">
           {/* left */}
           <div className="flex-1 relative">
             <div className="h-20 w-24 relative lg:mx-0 mx-auto">
@@ -144,7 +144,7 @@ const CourseFlow = () => {
           </div>
 
           {/* right */}
-          <div className="flex-1 flex justify-center">
+          <div className="flex-1 flex justify-center overflow-hidden">
             <DotLottieReact
               src="https://lws-website-assets.s3.ap-southeast-1.amazonaws.com/lottie/value-assignment.lottie"
               className="w-full scale-[1.5]"
@@ -155,7 +155,7 @@ const CourseFlow = () => {
         </div>
 
         {/* 3 */}
-        <div className="flex lg:gap-10 gap-5 items-center lg:flex-row flex-col-reverse">
+        <div className="flex gap-10 items-center lg:flex-row flex-col-reverse">
           {/* left */}
           <div className="flex-1 relative">
             <div className="h-20 w-24 relative lg:mx-0 mx-auto">
@@ -207,16 +207,18 @@ const CourseFlow = () => {
           </div>
 
           {/* right */}
-          <div className="flex-1 flex justify-center">
-            <img
-              src="https://www.hablu-programmer.com/img/journey.png"
-              alt=""
+          <div className="flex-1 flex justify-center overflow-hidden">
+            <DotLottieReact
+              src="/lotties/courseFlow1.lottie"
+              className="w-full scale-[0.98]"
+              loop
+              autoplay
             />
           </div>
         </div>
 
         {/* 4 */}
-        <div className="flex lg:gap-10 gap-5 items-center lg:flex-row-reverse flex-col-reverse">
+        <div className="flex gap-10 items-center lg:flex-row-reverse flex-col-reverse">
           {/* left */}
           <div className="flex-1 relative">
             <div className="h-20 w-24 relative lg:mx-0 mx-auto">
@@ -272,10 +274,10 @@ const CourseFlow = () => {
           </div>
 
           {/* right */}
-          <div className="flex-1 flex justify-center">
-          <DotLottieReact
+          <div className="flex-1 flex justify-center overflow-hidden">
+            <DotLottieReact
               src="https://lws-website-assets.s3.ap-southeast-1.amazonaws.com/lottie/value-support.lottie"
-              className="w-full scale-[1.20]"
+              className="w-full scale-[1.15]"
               loop
               autoplay
             />
@@ -283,7 +285,7 @@ const CourseFlow = () => {
         </div>
 
         {/* 5 */}
-        <div className="flex lg:gap-10 gap-5 items-center lg:flex-row flex-col-reverse">
+        <div className="flex gap-10 items-center lg:flex-row flex-col-reverse">
           {/* left */}
           <div className="flex-1 relative">
             <div className="h-20 w-24 relative lg:mx-0 mx-auto">
@@ -335,7 +337,7 @@ const CourseFlow = () => {
           </div>
 
           {/* right */}
-          <div className="flex-1 flex justify-center">
+          <div className="flex-1 flex justify-center overflow-hidden">
             <DotLottieReact
               src="https://lws-website-assets.s3.ap-southeast-1.amazonaws.com/lottie/value-live.lottie"
               className="w-full scale-[1.5]"
@@ -346,7 +348,7 @@ const CourseFlow = () => {
         </div>
 
         {/* 6 */}
-        <div className="flex lg:gap-10 gap-5 items-center lg:flex-row-reverse flex-col-reverse">
+        <div className="flex gap-10 items-center lg:flex-row-reverse flex-col-reverse">
           {/* left */}
           <div className="flex-1 relative">
             <div className="h-20 w-24 relative lg:mx-0 mx-auto">
@@ -387,7 +389,7 @@ const CourseFlow = () => {
           </div>
 
           {/* right */}
-          <div className="flex-1 flex justify-center">
+          <div className="flex-1 flex justify-center overflow-hidden">
             <DotLottieReact
               src="https://lws-website-assets.s3.ap-southeast-1.amazonaws.com/lottie/value-exam.lottie"
               className="w-full scale-[1.2]"
